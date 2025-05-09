@@ -1,5 +1,6 @@
 [versions]
-agp = "8.8.0"
+agp = "8.8.2"
+biometric = "1.1.0"
 kotlin = "1.9.24"
 coreKtx = "1.15.0"
 junit = "4.13.2"
@@ -12,9 +13,12 @@ constraintlayout = "2.2.1"
 navigationFragmentKtx = "2.8.9"
 navigationUiKtx = "2.8.9"
 patternlockview = "2.2.0"
+patternlockviewVersion = "2.2.0"
 
 [libraries]
+androidx-biometric = { module = "androidx.biometric:biometric", version.ref = "biometric" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+com-andrognito-patternlockview-patternlockview = { module = "com.andrognito.patternlockview:patternlockview", version.ref = "patternlockviewVersion" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }

@@ -2,9 +2,9 @@ package com.busandr.maxsafety
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class PinActivity : AppCompatActivity() {
@@ -14,8 +14,7 @@ class PinActivity : AppCompatActivity() {
 
     private fun comparePIN() {
         if (currentPin == validPin) {
-            val intent = Intent(this, SwipeActivity::class.java)
-            Log.i("this", "@!!!!!!!!!!!!!!!!")
+            val intent = Intent(this, AuthenticationActivity::class.java)
             startActivity(intent)
         }
     }
@@ -67,5 +66,6 @@ class PinActivity : AppCompatActivity() {
         button0.setOnClickListener { addToInput("0") }
 
         buttonBackspace.setOnClickListener { backspace() }
+        Toast.makeText(this, "Right PIN is $validPin", Toast.LENGTH_LONG).show()
     }
 }
