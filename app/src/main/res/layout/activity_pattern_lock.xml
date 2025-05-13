@@ -3,38 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
-
-<!--    <TextView-->
-<!--        android:id="@+id/status_text"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:textSize="24sp"-->
-<!--        android:text="Draw a pattern"-->
-<!--        android:layout_centerHorizontal="true"-->
-<!--        android:layout_marginBottom="32dp"-->
-<!--        android:layout_above="@+id/pattern_lock_view" />-->
-
-<!--    <com.andrognito.patternlockview.PatternLockView-->
-<!--        android:id="@+id/pattern_lock_view"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="300dp"-->
-<!--        android:layout_centerInParent="true"-->
-<!--        app:dotCount="3"-->
-<!--        app:dotNormalSize="24dp"-->
-<!--        app:dotSelectedSize="24dp"-->
-<!--        app:pathWidth="6dp"-->
-<!--        app:dotAnimationDuration="150"-->
-<!--        app:correctStateColor="#2ecc71"-->
-<!--        app:wrongStateColor="#e74c3c"-->
-<!--        app:lineAnimationDuration="200" />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/reset_button"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Reset"-->
-<!--        android:layout_below="@+id/pattern_lock_view"-->
-<!--        android:layout_centerHorizontal="true"-->
-<!--        android:layout_marginTop="16dp" />-->
+    android:padding="16dp"
+    android:background="@color/black">
 </RelativeLayout>
